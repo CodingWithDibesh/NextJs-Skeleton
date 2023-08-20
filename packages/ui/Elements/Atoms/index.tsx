@@ -1,1 +1,2 @@
-export {};
+// Please use barrel export
+export { };
