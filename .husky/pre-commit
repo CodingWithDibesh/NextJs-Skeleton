@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Lints and Formats Code.
+echo "👀 Serchinng and fixing Lint issues 🛠️"
+echo "👀 Serchinng and fixing Format issues 🎨"
+yarn lint-stage
