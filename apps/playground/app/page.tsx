@@ -1,7 +1,3 @@
 export default function Page() {
-  return (
-    <>
-     Playground App
-    </>
-  );
+  return <>Playground App</>;
 }

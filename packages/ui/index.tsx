@@ -1,2 +1,2 @@
-export * from "./Pages"
-export * from "./Templates"
+export * from "./Pages";
+export * from "./Templates";
