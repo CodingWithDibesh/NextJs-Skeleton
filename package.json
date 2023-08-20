@@ -1,7 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "prestart": "cp automation/pre-commit .git/hooks/ && chmod +x .git/hooks/pre-commit && echo 'Automation Hooks copied 🧑‍💻'",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
