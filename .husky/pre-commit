@@ -5,3 +5,5 @@
 echo "👀 Serchinng and fixing Lint issues 🛠️"
 echo "👀 Serchinng and fixing Format issues 🎨"
 yarn lint-stage
+echo "👀 Linting thinggs up 🧑‍💻"
+npx lint-staged
