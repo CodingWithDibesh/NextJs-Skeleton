@@ -1,3 +1,9 @@
+import { Landing } from 'ui';
+
 export default function Page() {
-    return <>Web App</>;
+    return (
+        <>
+            <Landing title="Landing Page" />
+        </>
+    );
 }
