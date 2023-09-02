@@ -1,5 +1,8 @@
 {
-  "extends": "tsconfig/react-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+    "extends": "tsconfig/nextjs.json",
+    "include": ["."],
+    "compilerOptions": {
+        "useUnknownInCatchVariables": false
+    },
+    "exclude": ["dist", "build", "node_modules"]
 }
