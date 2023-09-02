@@ -1,20 +1,38 @@
 {
-  "name": "ui",
-  "version": "0.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
-  "license": "MIT",
-  "scripts": {
-    "lint": "eslint \"**/*.ts*\""
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "eslint": "^7.32.0",
-    "react": "^17.0.2",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
-    "tailwindcss-config": "*",
-    "typescript": "^4.5.2"
-  }
+    "name": "ui",
+    "version": "0.0.0",
+    "main": "./index.tsx",
+    "types": "./index.tsx",
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint \"**/*.ts*\"",
+        "dev": "storybook dev -p 6006",
+        "build": "storybook build"
+    },
+    "devDependencies": {
+        "@storybook/addon-essentials": "^7.4.0",
+        "@storybook/addon-interactions": "^7.4.0",
+        "@storybook/addon-links": "^7.4.0",
+        "@storybook/blocks": "^7.4.0",
+        "@storybook/react": "^7.4.0",
+        "@storybook/react-vite": "^7.4.0",
+        "@storybook/testing-library": "^0.2.0",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.0",
+        "eslint": "^7.32.0",
+        "eslint-config-custom": "*",
+        "eslint-plugin-storybook": "^0.6.13",
+        "react": "18.2.0",
+        "react-dom": "^18.2.0",
+        "storybook": "^7.4.0",
+        "tailwindcss-config": "*",
+        "tsconfig": "*",
+        "typescript": "^4.5.2",
+        "vite": "^4.4.9"
+    },
+    "eslintConfig": {
+        "extends": [
+            "plugin:storybook/recommended"
+        ]
+    }
 }
