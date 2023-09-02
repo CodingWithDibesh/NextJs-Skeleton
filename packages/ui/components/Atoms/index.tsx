@@ -1,2 +1,2 @@
 // Please use barrel export
-export {};
+export * from './Button';

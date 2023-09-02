@@ -1,2 +1,1 @@
-export * from './Pages';
-export * from './Templates';
+export * from './pages';
