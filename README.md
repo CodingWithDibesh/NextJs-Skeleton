@@ -13,10 +13,10 @@ Develop StoryBook   : yarn story
 
 ## What has been configured
 
-- [x] TurboRepo
-- [x] NextJs
-- [x] Tailwind
-- [x] Tailwind variants
-- [x] StoryBook
-- [x] Husky
-- [x] EsLint/Prettier
+-   [x] TurboRepo
+-   [x] NextJs
+-   [x] Tailwind
+-   [x] Tailwind variants
+-   [x] StoryBook
+-   [x] Husky
+-   [x] EsLint/Prettier
