@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "setup": "yarn && yarn dev",
         "build": "turbo run build",
         "dev": "turbo run dev --filter=web --filter=playground",
         "dev-story": "turbo run dev --filter=ui",
