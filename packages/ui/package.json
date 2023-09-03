@@ -34,5 +34,8 @@
         "extends": [
             "plugin:storybook/recommended"
         ]
+    },
+    "dependencies": {
+        "tailwind-variants": "^0.1.14"
     }
 }
