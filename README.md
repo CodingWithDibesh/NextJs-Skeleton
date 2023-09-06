@@ -8,7 +8,7 @@
 Setup Project       : yarn setup
 Build               : yarn build
 Develop             : yarn dev
-Develop StoryBook   : yarn story
+Develop StoryBook   : yarn dev-story
 ```
 
 ## What has been configured
