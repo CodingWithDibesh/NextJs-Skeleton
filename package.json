@@ -17,7 +17,7 @@
         "husky": "^8.0.3",
         "lint-staged": "^14.0.1",
         "prettier": "^2.5.1",
-        "turbo": "latest"
+        "turbo": "^1.10.12"
     },
     "name": "fe-skeleton",
     "packageManager": "yarn@1.22.19",
