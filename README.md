@@ -4,6 +4,14 @@
 
 This Project is a frontend skeleton with baked-in TurboRepo, Tailwind CSS, Husky, NextJS, and StoryBook. Feel free to use this template.
 
+## Useing this repo
+Create a repository and follow the steps below to use this template project locally.
+1. Add template on your existing repo using `git remote add template  https://github.com/CodingWithDibesh/NextJs-Skeleton.git` command.
+2. Fetch the template repo using `git fetch template` command.
+3. Merge the template branch to your desired branch using `git merge template/[branch-name]`
+ 
+For more information follow the [Stack Overflow](https://stackoverflow.com/questions/56577184/github-pull-changes-from-a-template-repository) conversation for more details.
+
 ## Commands available
 
 ```Text
